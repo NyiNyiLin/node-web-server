@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 
 //middleware
 app.use((req, res, next)=>{
-  res.render('maintenance.hbs');
+  //res.render('maintenance.hbs');
 });
 
 //middleware to provide static folder to app
